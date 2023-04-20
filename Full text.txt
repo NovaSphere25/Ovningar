@@ -1,0 +1,34 @@
+1. Gissa ett tal
+
+
+Datorn slumpar fram ett tal. Du ska gissa vilket och får hints från datorn angående din senaste gissning. Här är ett exempel på hur dialogen mellan användaren och datorn kan se ut.
+
+
+Gissa ett tal mellan 1 och 100.
+
+Gissning 1: 50
+
+Talet är större.
+
+Gissning 2: 75
+
+Talet är mindre.
+
+Gissning 3: 60
+
+Talet är mindre.
+
+Gissning 4: Fyra
+
+Du kan bara skriva ett tal med siffror. Försök igen!
+
+Gissning 4: 55
+
+Rätt! Du gissade rätt på 4 försök.
+
+Vill du spela igen (Ja/Nej)? Nope
+
+Vill du spela igen (Ja/Nej)? Nej
+
+Tack för den här gången!
+
