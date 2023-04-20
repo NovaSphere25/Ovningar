@@ -8,10 +8,3 @@ while answer != "n":
         print(tal)
         
     answer = input("Vill du fortsätta(y/n)?")
-        
-    #sum = 0        
-    #for i in range(0,10):
-    #    tal = input(f"Mata in tal nummer {i+1}")
-    #    sum = sum + tal
-    #    
-    #print("Summan av alla talen blev...{sum}")
