@@ -1,18 +1,9 @@
 import random
 
-number = random.randint(1,100)
-guess = -1
-guesses = 0
-playing = True
+number = 0
 
 def cal():
-    global guess
-    global guesses
-    global number
-    
-    guess = -1
-    guesses = 0
-    number = random.randint(1,100)
+    return random.randint(1,100), 0, -1
     
 def menu():
     while(True):
@@ -51,26 +42,21 @@ def write_highscore(name, score):
         f.write(f"{name},{score}\n")
 
 def play_again():
-    cal()
-    global playing
     
     while(True):
         answer = input("Vill du spela igen (Ja/Nej)?")
         if(answer == "Ja"):
             print("\n")
             print("Gissa ett tal mellan 1 och 100.")
-            return
+            return True
         elif(answer == "Nej"):
             print("Tack för den här gången!")
-            playing = False
-            return
+            return False
 
 def play():
     print("Gissa ett tal mellan 1 och 100.")
-    cal()
     
-    global guesses
-    global playing
+    number,guesses,guess = cal()
     
     playing = True
     
@@ -98,7 +84,9 @@ def play():
             else:
                 pass
             
-            play_again()
+            playing = play_again()
+            number,guesses,guess = cal()
+            
         else:
             print("An unknown Error Has Occurred")
 
