@@ -1,34 +1,42 @@
-1. Gissa ett tal
+IF-SATSER
+
+6. IF #6
 
 
-Datorn slumpar fram ett tal. Du ska gissa vilket och får hints från datorn angående din senaste gissning. Här är ett exempel på hur dialogen mellan användaren och datorn kan se ut.
+Be användaren mata in sitt födelseår. Om det är större eller lika med 1980 men
+
+mindre än 1990 skriv ut –Du är född på 1980-talet. Om det är mindre än 2000 men
+
+större än eller lika med 1990 skriv ut- Du är född på 1990-talet. Om det är mindre
+
+än 1980 eller större än eller lika med 2000, skriv- Du är inte född på 1990 eller
+
+1980-talen.
 
 
-Gissa ett tal mellan 1 och 100.
 
-Gissning 1: 50
+7. IF #7
 
-Talet är större.
 
-Gissning 2: 75
+Be användaren att mata in namnet på ett land där den bor. Om det är Sverige,
 
-Talet är mindre.
+Danmark, eller Norge skall användare informeras att-Du bor i Skandinavien. Om
 
-Gissning 3: 60
+inte meddela användaren att den inte bor i Skandinavien.
 
-Talet är mindre.
 
-Gissning 4: Fyra
 
-Du kan bara skriva ett tal med siffror. Försök igen!
 
-Gissning 4: 55
+8. IF #8
 
-Rätt! Du gissade rätt på 4 försök.
 
-Vill du spela igen (Ja/Nej)? Nope
+Be användaren mata in en summa på hur mycket pengar den har. Be sedan
 
-Vill du spela igen (Ja/Nej)? Nej
+användaren att ange om den har rabatt.
 
-Tack för den här gången!
 
+Om summan är mellan 15 och 25 och användaren inte har rabatt skriv – Du kan köpa en liten hamburgare.
+Om summan är mellan 15 och 25 och användaren har rabatt skriv – Du kan köpa en liten hamburgare och en pommes frites.
+Om summan är större än 25 och mindre än eller lika med 50 och användaren inte har rabatt skriv – Du kan köpa en stor hamburgare.
+Om summan är större än 25 och mindre än eller lika med 50 och användaren har rabatt skriv – Du kan köpa en stor hamburgare och pommes frites.
+Om summan är större än 60 eller om den är mellan 50 och 60 och användaren har rabatt skriv – Du kan köpa ett meal med dryck.
