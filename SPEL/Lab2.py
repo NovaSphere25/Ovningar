@@ -16,7 +16,8 @@ def cal():
     
 def menu():
     while(True):
-        argument = input("1.Spela\n2.Highscore\n0.Avsluta\n")
+        print("1.Spela\n2.Highscore\n0.Avsluta\n")
+        argument = input("Val:")
         match argument:
             case "0":
                 return
