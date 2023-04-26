@@ -1,38 +1,75 @@
-
-2. LIST #2
-
-
-Vi bygger ett schackbräde:
+STRÄNGHANTERING
 
 
+1. STRING #1
 
-board = []
 
-for i in range(8):
+Be användaren mata in 3 strängar. Addera ihop strängarna och skriv ut alla tre
 
-   row = [‘ ‘ for i in range(8)]
-
-   board.append(row)
+strängarna på skärmen
 
 
 
+2. STRING #2
+
+
+Du har en strängvariabel som innehåller följande text, ”Hello, world”
+
+
+ Ta med hjälp av kod ut första förekomsten av bokstaven w
+Skriv ut vilken position bokstaven w har i strängen (H har position 0). Ta fram positionen genom kod.
+
+3. STRING #3
+
+
+Du har strängen string namn="kurt andersson";
+
+Skriv kod så att förnamn och efternamn i variabeln namn börjar med stora bokstäver.
+
+Resultatet skall bli så här "Kurt Andersson"
 
 
 
-placera ut bönder (lilla ‘b’)  på rad 2 och rad 7
-skriv ut schackbrädet
-googla på  python termcolor module och se om du kan skriva ut svarta bönder och vita bönder!
+
+4. STRING #4
 
 
-3. Dictionary
+Du har en sträng med texten ”Detta är en sträng som du skall ändra”. Ersätt via kod
+
+alla blanktecken i strängen med tecknet * . Räkna sedan ut via kod hur många
+
+förekomster det finns av tecknet * i strängen.
 
 
-Skriv en bankapplikation. Skriv först en meny med följande val:  
 
-Skapa konto
-Ta bort konto
-Lista alla kontonummer
-Lista totalsaldo
-Lista alla kontonummer och saldo
+5. STRING #5
 
-Felhantering behöver du inte bry dig om i steg 1.
+
+Be användaren mata in en mailadress. Programmet skall kontrollera att inmatningen är
+
+rätt dvs att det finns ett @ tecken och att det finns en . med 2 eller 3 tecken efter.
+
+Meddela användaren om det är rätt eller felaktig adress
+
+
+
+6. STRING #6
+
+
+ Gör ett program där användaren får mata in en mening t ex ”Detta är min text
+
+som jag matar in”. Programmet skall räkna ut hur många ord meningen består av
+
+och meddela användaren om detta.
+
+
+7. STRING #7
+
+
+Be användare mata in ett ord eller en mening. Programmet skall kontrollera om det
+
+ordet är en palindrom dvs om ordet blir likadant om man läser framifrån och bakifrån.
+
+Exempel på palindrom är namn som ”anna” eller ”otto” eller en mening som ”ni talar
+
+bra latin”. Meddela användaren om det är en palindrom eller ej.
