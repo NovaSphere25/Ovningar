@@ -30,7 +30,7 @@ def get_highscores():
     
     num = 1
     for x in scores:
-        scores[num-1] = str(num)+"."+str(x)
+        scores[num-1] = str(num)+"."+str(x[0])+", "+str(x[1])
         num=num+1
     
     print("")
@@ -92,14 +92,4 @@ def play():
 
     return
 
-while(True):
-    menu()
-    break
-    
-
-
-
-        
-        
-
-
+menu()
