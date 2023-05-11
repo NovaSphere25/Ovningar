@@ -1,5 +1,5 @@
 from rich import print
-#import directionality
+{#import directionality
 
 
 #north = directionality('nouth')
@@ -9,7 +9,7 @@ from rich import print
 
 #north.opposite = south
 #east.opposite = west
-
+}
 class Car():
     
     heading = 'North'
@@ -20,23 +20,23 @@ class Car():
     
     def turnCarLeft(self):
         if self.heading == "North":
-            self.heading = 'East'
-        elif self.heading == "South":
             self.heading = 'West'
+        elif self.heading == "South":
+            self.heading = 'East'
         elif self.heading == "East":            
-            self.heading = 'South'
-        elif self.heading == "West":
             self.heading = 'North'
+        elif self.heading == "West":
+            self.heading = 'South'
                     
     def turnCarRight(self):
         if self.heading == "North":      
-            self.heading = 'West'
-        elif self.heading == "South":      
             self.heading = 'East'
+        elif self.heading == "South":      
+            self.heading = 'West'
         elif self.heading == "East":      
-            self.heading = 'North'
-        elif self.heading == "West":      
             self.heading = 'South'
+        elif self.heading == "West":      
+            self.heading = 'North'
     
     def travelDirection(self, direction):
         if(self.testGas()):

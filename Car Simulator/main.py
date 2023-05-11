@@ -1,4 +1,5 @@
 import car
+import rich
 
 sim = car.Car()
 
@@ -17,7 +18,7 @@ def menu():
                 print(f"\033[1A \033[26C) {options[temp]}")
                 break
             except:
-                print()
+                print("\033[1A \033[26C)")
         
         
         match answer:
@@ -35,8 +36,6 @@ def menu():
                 sim.refill()
             case "7":
                 return
-            case default:
-                print(f"[{answer}] is not an option")
             
     
 
